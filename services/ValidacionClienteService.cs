@@ -19,13 +19,13 @@ namespace GestionEmpleados.Servicios
 
                     if (string.IsNullOrWhiteSpace(email))
                     {
-                        MostrarError("❌ El email no puede estar vacío.");
+                        MostrarError("El email no puede estar vacío.");
                         continue;
                     }
 
                     if (!Regex.IsMatch(email, patronEmail))
                     {
-                        MostrarError("❌ Formato de email inválido. Ejemplo: usuario@dominio.com");
+                        MostrarError("Formato de email inválido. Ejemplo: usuario@dominio.com");
                         continue;
                     }
 
@@ -47,7 +47,7 @@ namespace GestionEmpleados.Servicios
 
                     if (string.IsNullOrWhiteSpace(telefono))
                     {
-                        MostrarError("❌ El teléfono no puede estar vacío.");
+                        MostrarError("El teléfono no puede estar vacío.");
                         continue;
                     }
 
@@ -55,13 +55,13 @@ namespace GestionEmpleados.Servicios
                     
                     if (telefonoLimpio.Length < 7)
                     {
-                        MostrarError("❌ El teléfono debe tener al menos 7 dígitos.");
+                        MostrarError("El teléfono debe tener al menos 7 dígitos.");
                         continue;
                     }
 
                     if (!Regex.IsMatch(telefono, patronTelefono))
                     {
-                        MostrarError("❌ Formato de teléfono inválido. Ejemplos: +57 300 123 4567, 3001234567");
+                        MostrarError("Formato de teléfono inválido. Ejemplos: +57 300 123 4567, 3001234567");
                         continue;
                     }
 
