@@ -1,4 +1,4 @@
-```markdown
+
 # 🏢 C# Employee Management Console Project
 
 A simple and efficient console application for managing employee data. Streamlines HR tasks with an easy-to-use interface.
@@ -330,4 +330,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 -   📚 **Libraries used**:
     -   [Newtonsoft.Json](https://www.newtonsoft.com/json) - For handling JSON serialization and deserialization.
 -   👥 **Contributors**: Thanks to all [contributors](https://github.com/Windtheking/C--employee-management-console-project/contributors)
-```
+
