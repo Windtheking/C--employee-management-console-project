@@ -8,11 +8,43 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b43d000b-1ef8-4fbe-b265-bf3b35e921ad" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GestionEmpleados.sln" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GestionEmpleados/GestionEmpleados.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GestionEmpleados/Program.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/global.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.GestionEmpleados/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GestionEmpleados/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GestionEmpleados.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/GestionEmpleados.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Models/Empleado.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Models/Empleado.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SoftwareEmployeeManagement.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SoftwareEmployeeManagement.sln" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/net9.0/SoftwareEmployeeManagement.deps.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/net9.0/SoftwareEmployeeManagement.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/net9.0/SoftwareEmployeeManagement.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/net9.0/SoftwareEmployeeManagement.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/net9.0/SoftwareEmployeeManagement.runtimeconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/Clients.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/Company.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/Employee.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/Person.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/Seeders.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net9.0/.NETCoreApp,Version=v9.0.AssemblyAttributes.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net9.0/SoftwareEmployeeManagement.AssemblyInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net9.0/SoftwareEmployeeManagement.AssemblyInfoInputs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net9.0/SoftwareEmployeeManagement.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net9.0/SoftwareEmployeeManagement.GlobalUsings.g.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net9.0/SoftwareEmployeeManagement.assets.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net9.0/SoftwareEmployeeManagement.csproj.CoreCompileInputs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net9.0/SoftwareEmployeeManagement.csproj.FileListAbsolute.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net9.0/SoftwareEmployeeManagement.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net9.0/SoftwareEmployeeManagement.genruntimeconfig.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net9.0/SoftwareEmployeeManagement.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net9.0/apphost.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net9.0/ref/SoftwareEmployeeManagement.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net9.0/refint/SoftwareEmployeeManagement.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/SoftwareEmployeeManagement.csproj.nuget.dgspec.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/SoftwareEmployeeManagement.csproj.nuget.g.props" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/SoftwareEmployeeManagement.csproj.nuget.g.targets" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/ValidacionClienteService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/services/ValidacionClienteService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/ValidacionCompartidaService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/services/ValidacionCompartidaService.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,23 +75,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;.NET Project.GestionEmpleados.executor&quot;: &quot;Run&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/media/Coder/76E8-CACF/C# Duana/HerenciaExecise/HerenciaExecise.sln&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.sourceCode.C#&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    ".NET Project.GestionEmpleados.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "develop",
+    "last_opened_file_path": "/media/Coder/76E8-CACF/C# Duana/HerenciaExecise/HerenciaExecise.sln",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.sourceCode.C#",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected=".NET Project.GestionEmpleados">
     <configuration name="GestionEmpleados" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
@@ -131,6 +163,7 @@
       <workItem from="1762012065100" duration="8143000" />
       <workItem from="1762195327652" duration="6014000" />
       <workItem from="1762609882091" duration="5965000" />
+      <workItem from="1763784185028" duration="1390000" />
     </task>
     <servers />
   </component>

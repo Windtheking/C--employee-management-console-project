@@ -1,10 +1,11 @@
+using System;
+using System.Globalization;
+using System.Text.RegularExpressions;
 namespace GestionEmpleados.services
 {
-using System;
-using System.Text.RegularExpressions;
 
-namespace GestionEmpleados.Servicios
-    {
+
+    
         public static class ValidacionClienteService
         {
             public static string ValidarEmail(string prompt)
@@ -79,5 +80,5 @@ namespace GestionEmpleados.Servicios
                 Console.ForegroundColor = colorOriginal;
             }
         }
-    }
+    
 }

@@ -1,9 +1,8 @@
-namespace GestionEmpleados.services
-{
 using System;
+using System.Globalization;
 using System.Text.RegularExpressions;
 
-namespace GestionEmpleados.Servicios
+namespace GestionEmpleados.services
 {
     public static class ValidacionCompartidaService
     {
@@ -17,19 +16,19 @@ namespace GestionEmpleados.Servicios
 
                 if (string.IsNullOrWhiteSpace(valor))
                 {
-                    MostrarError("❌ El nombre no puede estar vacío.");
+                    MostrarError(" El nombre no puede estar vacío.");
                     continue;
                 }
 
                 if (valor.Length < 2)
                 {
-                    MostrarError("❌ El nombre debe tener al menos 2 caracteres.");
+                    MostrarError(" El nombre debe tener al menos 2 caracteres.");
                     continue;
                 }
 
                 if (!Regex.IsMatch(valor, @"^[a-zA-ZáéíóúÁÉÍÓÚñÑ\s]+$"))
                 {
-                    MostrarError("❌ El nombre solo puede contener letras y espacios.");
+                    MostrarError(" El nombre solo puede contener letras y espacios.");
                     continue;
                 }
 
@@ -50,19 +49,19 @@ namespace GestionEmpleados.Servicios
 
                 if (string.IsNullOrWhiteSpace(entrada))
                 {
-                    MostrarError("❌ La fecha no puede estar vacía.");
+                    MostrarError(" La fecha no puede estar vacía.");
                     continue;
                 }
 
-                if (!DateOnly.TryParseExact(entrada, "yyyy-MM-dd", null, System.Globalization.DateStyles.None, out fecha))
+                if (!DateOnly.TryParseExact(entrada, "yyyy-MM-dd", null, System.Globalization.DateTimeStyles.None, out fecha))
                 {
-                    MostrarError("❌ Formato de fecha inválido. Use: yyyy-MM-dd (Ejemplo: 1990-05-15)");
+                    MostrarError(" Formato de fecha inválido. Use: yyyy-MM-dd (Ejemplo: 1990-05-15)");
                     continue;
                 }
 
                 if (fecha > DateOnly.FromDateTime(DateTime.Today))
                 {
-                    MostrarError("❌ La fecha de nacimiento no puede ser futura.");
+                    MostrarError(" La fecha de nacimiento no puede ser futura.");
                     continue;
                 }
 
@@ -74,13 +73,13 @@ namespace GestionEmpleados.Servicios
 
                 if (edad < edadMinima)
                 {
-                    MostrarError($"❌ La edad debe ser al menos {edadMinima} años.");
+                    MostrarError($" La edad debe ser al menos {edadMinima} años.");
                     continue;
                 }
 
                 if (edad > edadMaxima)
                 {
-                    MostrarError($"❌ La edad no puede ser mayor a {edadMaxima} años.");
+                    MostrarError($" La edad no puede ser mayor a {edadMaxima} años.");
                     continue;
                 }
 
@@ -122,5 +121,4 @@ namespace GestionEmpleados.Servicios
             return string.Join(" ", palabras);
         }
     }
-}
 }

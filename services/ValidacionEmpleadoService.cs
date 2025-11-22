@@ -1,8 +1,9 @@
 
 using System;
+using System.Globalization;
 using System.Text.RegularExpressions;
 
-namespace GestionEmpleados.Servicios
+namespace GestionEmpleados.services
 {
     public static class ValidacionEmpleadoService
     {

@@ -1,3 +1,7 @@
+using System;
+using System.Globalization;
+using GestionEmpleados.services;
+
 namespace GestionEmpleados
 {
     public class Empleado : Persona
@@ -12,6 +16,29 @@ namespace GestionEmpleados
             NumeroDeIdentificacion = numeroId;
             Posicion = posicion;
             Salario = salario;
+        }
+
+        // Constructor con validaciones integradas
+        public static Empleado CrearConValidaciones()
+        {
+            Console.WriteLine("\n╔══════════════════════════════════════════════════╗");
+            Console.WriteLine("║          CREAR NUEVO EMPLEADO                    ║");
+            Console.WriteLine("╚══════════════════════════════════════════════════╝\n");
+
+            string nombre = ValidacionCompartidaService.ValidarNombre("Nombre: ");
+            string apellido = ValidacionCompartidaService.ValidarNombre("Apellido: ");
+            DateOnly fecha = ValidacionCompartidaService.ValidarFechaNacimiento(
+                "Fecha de nacimiento (yyyy-MM-dd): ", 
+                edadMinima: 18, 
+                edadMaxima: 70
+            );
+            string numeroId = ValidacionEmpleadoService.ValidarNumeroIdentificacion("Número de identificación: ");
+            string posicion = ValidacionEmpleadoService.ValidarPosicion("Posición");
+            decimal salario = ValidacionEmpleadoService.ValidarSalario("Salario: $");
+
+            ValidacionCompartidaService.MostrarExito("Empleado creado exitosamente!");
+            
+            return new Empleado(nombre, apellido, fecha, numeroId, posicion, salario);
         }
 
         private decimal CalcularBonificacion() => Salario * 0.10m;

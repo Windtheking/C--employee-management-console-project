@@ -1,6 +1,5 @@
-namespace GestionEmpleados
-{
-    public abstract class Persona
+namespace GestionEmpleados;
+public abstract class Persona
     {
         protected Guid Id { get; set; }
         protected string Nombre { get; set; }
@@ -19,4 +18,3 @@ namespace GestionEmpleados
 
         public abstract void MostrarInformacion();
     }
-}
