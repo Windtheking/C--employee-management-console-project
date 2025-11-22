@@ -1,0 +1,14 @@
+C:\Users\Santy\Desktop\C#\GestionEmpleadosSantiago\SoftwareEmployeeManagement\bin\Debug\net9.0\SoftwareEmployeeManagement.exe
+C:\Users\Santy\Desktop\C#\GestionEmpleadosSantiago\SoftwareEmployeeManagement\bin\Debug\net9.0\SoftwareEmployeeManagement.deps.json
+C:\Users\Santy\Desktop\C#\GestionEmpleadosSantiago\SoftwareEmployeeManagement\bin\Debug\net9.0\SoftwareEmployeeManagement.runtimeconfig.json
+C:\Users\Santy\Desktop\C#\GestionEmpleadosSantiago\SoftwareEmployeeManagement\bin\Debug\net9.0\SoftwareEmployeeManagement.dll
+C:\Users\Santy\Desktop\C#\GestionEmpleadosSantiago\SoftwareEmployeeManagement\bin\Debug\net9.0\SoftwareEmployeeManagement.pdb
+C:\Users\Santy\Desktop\C#\GestionEmpleadosSantiago\SoftwareEmployeeManagement\obj\Debug\net9.0\SoftwareEmployeeManagement.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Santy\Desktop\C#\GestionEmpleadosSantiago\SoftwareEmployeeManagement\obj\Debug\net9.0\SoftwareEmployeeManagement.AssemblyInfoInputs.cache
+C:\Users\Santy\Desktop\C#\GestionEmpleadosSantiago\SoftwareEmployeeManagement\obj\Debug\net9.0\SoftwareEmployeeManagement.AssemblyInfo.cs
+C:\Users\Santy\Desktop\C#\GestionEmpleadosSantiago\SoftwareEmployeeManagement\obj\Debug\net9.0\SoftwareEmployeeManagement.csproj.CoreCompileInputs.cache
+C:\Users\Santy\Desktop\C#\GestionEmpleadosSantiago\SoftwareEmployeeManagement\obj\Debug\net9.0\SoftwareEmployeeManagement.dll
+C:\Users\Santy\Desktop\C#\GestionEmpleadosSantiago\SoftwareEmployeeManagement\obj\Debug\net9.0\refint\SoftwareEmployeeManagement.dll
+C:\Users\Santy\Desktop\C#\GestionEmpleadosSantiago\SoftwareEmployeeManagement\obj\Debug\net9.0\SoftwareEmployeeManagement.pdb
+C:\Users\Santy\Desktop\C#\GestionEmpleadosSantiago\SoftwareEmployeeManagement\obj\Debug\net9.0\SoftwareEmployeeManagement.genruntimeconfig.cache
+C:\Users\Santy\Desktop\C#\GestionEmpleadosSantiago\SoftwareEmployeeManagement\obj\Debug\net9.0\ref\SoftwareEmployeeManagement.dll
